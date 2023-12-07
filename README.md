@@ -7,23 +7,29 @@
 ## Table of Contents
   
 1. [Introduction :notebook:](#introduction-notebook)
-2. [Installation :computer:](#installation-computer)
-3. [Usage :pencil:](#usage-pencil)
-4. [Modules Introduction :books:](#modules-introduction-books)
+2. [Main Features :check:](#main_features-check)
+3. [Installation :computer:](#installation-computer)
+4. [Usage :pencil:](#usage-pencil)
+5. [Modules Introduction :books:](#modules-introduction-books)
      + [deployer.py](#deployerpy)
      + [contractVariableManager.py](#contractVariableManager.py)
      + [contract_flattener.py](#contract_flattener.py)
      + [get_initial_variables.py](#get_initial_variables.py)
      + [pragmaVariableManager.py](#pragmaVariableManager.py)
      + [spdxManager.py](#spdxManager.py)
-5. [Contributing :handshake:](#contributing-handshake)
-6. [License :scroll:](#license-scroll)
+6. [Contributing :handshake:](#contributing-handshake)
+7. [License :scroll:](#license-scroll)
 
 ## Introduction :notebook:
   
-Smart Contract Station automates the nitty-gritty of smart contracts by preparing, placing, and managing smart contracts on the Ethereum network. By analyzing the structure and hierarchy of the contracts, it allows automatic deployment in the correct order. It also assists developers in tracking, diagnosing, and fixing issues, providing a clear advantage in auditing, security assessment processes, and verification procedures on Ethereum explorers like Etherscan.
+Smart Contract Station automates the nitty-gritty of smart contracts by preparing, placing, and managing smart contracts on the Ethereum network. By analyzing the structure and hierarchy of the contracts, it allows automatic deployment in the correct order. It also assists developers in tracking, diagnosing, and fixing issues, providing a clear advantage in auditing, security assessment processes, and verification procedures on Ethereum explorers like Etherscan. All in play to help the user better understand the architecture of contracts and their dependencies, enhancing your ability to debug, audit and verify contracts' integrity and functionality.
 
-The Smart Contract Station enables you to understand the architecture of contracts and their dependencies, enhancing your ability to debug, audit and verify contracts' integrity and functionality. Every component of a contract – the 'imports' directory featuring all dependencies required by a contract, the list of all functions in 'Functions.json', constant values in 'consVals.sol', general information in 'info.json', and tracking data for the contract in 'lineTrack.json'– can be easily accessed and managed, making this tool an essential asset for anyone dealing with complex, multi-contract systems.
+## Main Features
+
+1. **Smart contract syntax parameters detection**: Determines various parameters such as visibility, modifiers, and global variables that underlie the contract for comprehensive analysis.
+2. **Graphical user interface**: Provides efficient window management with long-running operations and imbues an interactive user-interface layer to the console-driven system.
+3. **Information extraction and storage**: Assesses the contract and stores key information, offering insights into contract dependencies, structure, and functionality.
+4. **Deployment process automation**: Streamlines the process of deploying including creation of requisite folders, initialization of home directories, and setting the script's starting point.
 
 ## Installation :computer:
 
@@ -59,8 +65,6 @@ The central script, `deployer.py`, is designed for the development and autonomou
 ### contractVariableManager.py
 
 The `contractVariableManager.py` script is critical in preparing and deploying smart contracts by parsing and categorizing their components. It plays a vital role in file operations, managing data extracted from smart contracts, and in the user interface, creating dialog boxes and prompts and retrieving user inputs.
-
--It uses various methods including 'importCheck' to verify resources, 'getNames' to process contract components, and 'saveSect' and 'sendIfs' to handle contract data. The script works with modules like 'os' and 'PySimpleGUI' to handle files and provide a graphical user interface. Crucial methods include 'pragmaVerSplit' and 'getInitialVars' that handle contract variables. The 'abstract_window_manager.py' script manages windows, threads, and operations, separating GUI controls from main contract management code. Helper routines for condition checking and list manipulation exist alongside functions to handle files and JSON data. Also, the 'contractVariablesManager' class prepares file paths and other necessary components for contract deployment.
 
 ### contract_flattener.py
 
