@@ -33,22 +33,6 @@ Smart Contract Station automates the nitty-gritty of smart contracts by preparin
 3. **Information extraction and storage**: Assesses the contract and stores key information, offering insights into contract dependencies, structure, and functionality.
 4. **Deployment process automation**: Streamlines the process of deploying including creation of requisite folders, initialization of home directories, and setting the script's starting point.
 
-## Installation :computer:
-
-Install Python 3.x and pip. The Smart Contract Station can be installed using pip.
-
-```bash
-download the repository and run deployer.py
-```
-
-## Usage :pencil:
-
-First, import the module.
-
-```python
-import smart_contract_station
-```
-
 To interact with the Ethereum network, it is recommended to use an Ethereum client. You can provide your Ethereum address and the private key as environment variables.
 
 ```bash
@@ -60,29 +44,45 @@ Now you're ready to work with Ethereum contracts. Find out more in the [Modules 
 
 ## Modules Introduction :books:
 
-### deployer.py
+### Deployer
+This core module of *Smart Contract Station* handles user interaction, checks the existence of folders and files, as well as retrieves syntax information about the contracts. It also creates necessary folders for deployment, determines the endpoint for deployment, and deploys the contracts.
+[Read More](deployer.md)
 
-The central script, `deployer.py`, is designed for the development and autonomous placement of smart contracts. The script integrates compatibility, versions, imports, categorization based on launch sequence, and automated deployment of contracts. Additionally, it handles various file and graphical user interface operations.
+### Contract Variables Manager
+This script molds and prepares the components of smart contracts for deployment. It verifies resources, processes contract components, and handles the contract's data.
+[Read More](contract_variables_manager.md)
 
-### contractVariableManager.py
+### Flattener
+The Flattener module simplifies the structure of the contract, importing, cloning, and installing the Solidity flattener. The Flattener script modifies a given file structure based on a JSON configuration file, thereby creating a new JSON configuration for every flattening process. 
+[Read More](flattener.md)
 
-The `contractVariableManager.py` script is critical in preparing and deploying smart contracts by parsing and categorizing their components. It plays a vital role in file operations, managing data extracted from smart contracts, and in the user interface, creating dialog boxes and prompts and retrieving user inputs.
+### Initial Variables Manager
+This script focuses on parsing smart contract components and saving contract data, thereby automating the process of smart contract deployment. It gathers all vital variables and information and handles various types of variables. 
+[Read More](get_initial_vars.md)
 
-### contract_flattener.py
+### Pragma Variables Manager
+This script handles the versioning of smart contracts for automated deployment. The Pragma Variables Manager processes all pragma versions, retrieves pragma version details, and ensures that every Smart Contract aligns with its respective range and order of deployment.
+[Read More](pragma_variables_manager.md)
 
-It includes 'node_js_installer.py and 'Flattener.py' scripts. It verifies Node.js installation, automatically installs if not found, and simplifies the file structure of contracts.
+### SPDX Manager
+It deals with the management of SPDX License Identifiers in smart contracts. This class fetches SPDX identifiers from contracts and compares these identifiers with a predefined list.
+[Read More](spdx_manager.md)
 
-### get_initial_variables.py
+## Installation
+Follow the instructions listed below to get this project up and running on your local machine for development purposes.
+```bash
+# Clone the repository
+git clone https://github.com/username/repo.git
 
-The `get_initial_variables.py` script caters to the parsing of smart contract components, automating the process of securing contract data based on Solidity version, verifying required resources for contracts, and organizing everything for automated deployment.
+# Move into the cloned repository
+cd repo
 
-### pragmaVariableManager.py
+# Install all dependencies
+pip install -r requirements.txt
 
-The `pragma_variable_manager.py` script is a pivotal part of Smart Contract Station and manages the versioning of Smart Contracts for their automated deployment.
-
-### spdxManager.py
-
-The `spdx_manager.py` script of Smart Contract Station deals with the management of SPDX License Identifiers in smart contracts to maintain consistency.
+# Run the tool
+python main.py
+```
 
 ## How It Works 👓
 
