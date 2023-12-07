@@ -33,15 +33,6 @@ Smart Contract Station automates the nitty-gritty of smart contracts by preparin
 3. **Information extraction and storage**: Assesses the contract and stores key information, offering insights into contract dependencies, structure, and functionality.
 4. **Deployment process automation**: Streamlines the process of deploying including creation of requisite folders, initialization of home directories, and setting the script's starting point.
 
-To interact with the Ethereum network, it is recommended to use an Ethereum client. You can provide your Ethereum address and the private key as environment variables.
-
-```bash
-export ETH_ADDRESS=your_address
-export ETH_PRIVATE_KEY=your_private_key
-```
-
-Now you're ready to work with Ethereum contracts. Find out more in the [Modules Introduction](#modules-introduction-books) section.
-
 ## Modules Introduction :books:
 
 ### Deployer
@@ -83,6 +74,14 @@ pip install -r requirements.txt
 # Run the tool
 python main.py
 ```
+To interact with the Ethereum network, it is recommended to use an Ethereum client. You can provide your Ethereum address and the private key as environment variables.
+
+```bash
+export ETH_ADDRESS=your_address
+export ETH_PRIVATE_KEY=your_private_key
+```
+
+Now you're ready to work with Ethereum contracts. Find out more in the [Modules Introduction](#modules-introduction-books) section.
 
 ## How It Works 👓
 
