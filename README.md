@@ -60,10 +60,12 @@ The central script, `deployer.py`, is designed for the development and autonomou
 
 The `contractVariableManager.py` script is critical in preparing and deploying smart contracts by parsing and categorizing their components. It plays a vital role in file operations, managing data extracted from smart contracts, and in the user interface, creating dialog boxes and prompts and retrieving user inputs.
 
+-It uses various methods including 'importCheck' to verify resources, 'getNames' to process contract components, and 'saveSect' and 'sendIfs' to handle contract data. The script works with modules like 'os' and 'PySimpleGUI' to handle files and provide a graphical user interface. Crucial methods include 'pragmaVerSplit' and 'getInitialVars' that handle contract variables. The 'abstract_window_manager.py' script manages windows, threads, and operations, separating GUI controls from main contract management code. Helper routines for condition checking and list manipulation exist alongside functions to handle files and JSON data. Also, the 'contractVariablesManager' class prepares file paths and other necessary components for contract deployment.
+
 ### contract_flattener.py
 
 The `contract_flattener.py` component consolidates imports, clones, and installs the Solidity flattener from GitHub using npm and refines a given file structure into a simplified version.
-
+'node_js_installer.py' is responsible for checking Node.js installation on Unix systems (including Linux and MacOS), and it performs an automatic installation if no previous installation is found. The script attempts to run 'node' and 'npm' commands and acts upon any FileNotFoundError to initiate installation. If a Unix-based system is not detected, the script advises the user to manually install Node.js. The 'Flattener.py' script within 'contract_flattener.py' centrally imports, clones, and installs the Solidity flattener from GitHub using npm and modifies a given file structure into a simplified version. The script performs these operations based on a JSON configuration file providing vital details such as original file path and output directory, leading to the creation of a new JSON configuration for every flattening process. The script executes the flattening command, waits for the flattening process to complete before incorporating the flattened file into the original. In the post-flattening cleanup process, the script removes the temporary flattened file.
 ### get_initial_variables.py
 
 The `get_initial_variables.py` script caters to the parsing of smart contract components, automating the process of securing contract data based on Solidity version, verifying required resources for contracts, and organizing everything for automated deployment.
