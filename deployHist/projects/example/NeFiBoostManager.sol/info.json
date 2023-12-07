@@ -1,0 +1,425 @@
+{
+    "projectDir": "",
+    "originalFilePath": "/home/joben/Documents/blockchain/new_deployer/THE_FINAL_CONTS/Managers/NeFiBoostManager.sol~_flat_flat_flat_flat.sol",
+    "originalFileDir": "/home/joben/Documents/blockchain/new_deployer/THE_FINAL_CONTS/Managers",
+    "currProjectDir": "/home/joben/Documents/blockchain/new_deployer/deployHist/projects/dfsfasdfsadfdsfadsasdf",
+    "currFilePath": "/home/joben/Documents/blockchain/new_deployer/deployHist/projects/dfsfasdfsadfdsfadsasdf/NeFiBoostManager.sol/NeFiBoostManager.sol",
+    "file": "NeFiBoostManager.sol",
+    "fileName": "NeFiBoostManager.sol",
+    "contract_address": "",
+    "api": "",
+    "pragma": "0.8.13",
+    "license": 1,
+    "args": "",
+    "version": "v0.8.13+commit.abaa5c0e",
+    "variableNames": [],
+    "allVarsTrack": {
+        "SPDX-License-Identifier": {
+            "lines": [
+                6
+            ],
+            "Licenses": [
+                "Unlicense"
+            ],
+            "License": [
+                "UNLICENSED"
+            ],
+            "lic": 1
+        },
+        "pragma solidity": {
+            "lines": [
+                7
+            ],
+            "range": [
+                "0.8.13",
+                "0.8.16"
+            ],
+            "prags": [
+                "^0.8.13"
+            ],
+            "pragma": "0.8.13"
+        },
+        "function": {
+            "lines": [
+                9,
+                16,
+                22,
+                30,
+                36,
+                42,
+                45,
+                48,
+                51,
+                54,
+                57,
+                67,
+                77,
+                90,
+                102,
+                109,
+                113,
+                123,
+                134,
+                142,
+                155,
+                159,
+                163,
+                176,
+                189,
+                207,
+                215,
+                228,
+                238,
+                245,
+                251,
+                257,
+                263,
+                269,
+                275,
+                283,
+                286,
+                294,
+                304,
+                309,
+                312,
+                319,
+                326,
+                337,
+                340,
+                349,
+                352,
+                361,
+                387,
+                388,
+                389,
+                390,
+                391,
+                392,
+                404,
+                411,
+                419,
+                433,
+                441,
+                453,
+                467,
+                468,
+                469,
+                483,
+                486,
+                489,
+                492,
+                495,
+                498,
+                502,
+                505,
+                509,
+                522,
+                526,
+                534,
+                551,
+                559,
+                571,
+                581,
+                586,
+                598,
+                605,
+                608,
+                612,
+                619,
+                620,
+                621,
+                622,
+                623,
+                626,
+                627,
+                628,
+                629,
+                630,
+                631,
+                632,
+                633,
+                634,
+                637,
+                638,
+                639,
+                640,
+                641,
+                642,
+                643,
+                644,
+                647,
+                648,
+                649,
+                650,
+                651,
+                652,
+                653,
+                654,
+                655,
+                656,
+                657,
+                722,
+                725,
+                728,
+                731,
+                735,
+                738,
+                742,
+                745,
+                749,
+                752,
+                756,
+                759,
+                763,
+                766,
+                770,
+                773,
+                776,
+                779,
+                782,
+                785,
+                788,
+                792,
+                795,
+                798
+            ],
+            "names": "sendAllTokenOut"
+        },
+        "library": {
+            "lines": [
+                8,
+                88,
+                132,
+                293,
+                402
+            ],
+            "names": [
+                "SafeMath",
+                "boostLib",
+                "nebuLib",
+                "Address",
+                "SafeERC20"
+            ],
+            "SafeMath": {
+                "attributes": {},
+                "address": "",
+                "undeclared": "0"
+            },
+            "boostLib": {
+                "attributes": {
+                    "library": [
+                        "SafeMath"
+                    ]
+                },
+                "address": "",
+                "undeclared": "0"
+            },
+            "nebuLib": {
+                "attributes": {
+                    "library": [
+                        "SafeMath"
+                    ]
+                },
+                "address": "",
+                "undeclared": "0"
+            },
+            "Address": {
+                "attributes": {},
+                "address": "",
+                "undeclared": "0"
+            },
+            "SafeERC20": {
+                "attributes": {
+                    "library": [
+                        "Address"
+                    ]
+                },
+                "address": "",
+                "undeclared": "0"
+            }
+        },
+        "contract": {
+            "lines": [
+                473,
+                659,
+                662,
+                663
+            ],
+            "names": [
+                "ERC20",
+                "NeFiBoostManager",
+                "SafeMath",
+                "SafeMath"
+            ],
+            "ERC20": {
+                "address": "",
+                "attributes": {
+                    "abstract contract": [
+                        "Context"
+                    ],
+                    "interface": [
+                        "IERC20",
+                        "IERC20Metadata"
+                    ]
+                },
+                "undeclared": "1",
+                "constructor": {
+                    "attributes": [
+                        ""
+                    ],
+                    "constVariables": [
+                        ""
+                    ],
+                    "type": [
+                        ""
+                    ],
+                    "variables": [],
+                    "deployerVars": {},
+                    "input": []
+                }
+            },
+            "NeFiBoostManager": {
+                "address": "",
+                "attributes": {
+                    "abstract contract": [
+                        "Ownable"
+                    ]
+                },
+                "undeclared": "1"
+            },
+            "SafeMath": {
+                "address": "",
+                "attributes": {},
+                "undeclared": "1"
+            }
+        },
+        "abstract contract": {
+            "lines": [
+                282,
+                592,
+                618,
+                625,
+                636,
+                646
+            ],
+            "names": [
+                "Context",
+                "Ownable",
+                "protoManager",
+                "feeManager",
+                "prevNebulaProtoStarManager",
+                "overseer"
+            ],
+            "Context": {
+                "address": "",
+                "attributes": {},
+                "name": ""
+            },
+            "Ownable": {
+                "address": "",
+                "attributes": {
+                    "abstract contract": [
+                        "Context"
+                    ]
+                },
+                "name": ""
+            },
+            "protoManager": {
+                "address": "",
+                "attributes": {
+                    "abstract contract": [
+                        "Context"
+                    ]
+                },
+                "name": "protoMGR"
+            },
+            "feeManager": {
+                "address": "",
+                "attributes": {
+                    "abstract contract": [
+                        "Context"
+                    ]
+                },
+                "name": "feeMGR"
+            },
+            "prevNebulaProtoStarManager": {
+                "address": "",
+                "attributes": {
+                    "abstract contract": [
+                        "Context"
+                    ]
+                },
+                "name": ""
+            },
+            "overseer": {
+                "address": "",
+                "attributes": {
+                    "abstract contract": [
+                        "Context"
+                    ]
+                },
+                "name": "over"
+            }
+        },
+        "interface": {
+            "lines": [
+                386,
+                466
+            ],
+            "names": [
+                "IERC20",
+                "IERC20Metadata"
+            ],
+            "IERC20": {
+                "address": "",
+                "attributes": {},
+                "undeclared": "1"
+            },
+            "IERC20Metadata": {
+                "address": "",
+                "attributes": {
+                    "interface": [
+                        "IERC20"
+                    ]
+                },
+                "undeclared": "1"
+            }
+        },
+        "constructor": {
+            "lines": [
+                297,
+                479,
+                595
+            ],
+            "names": []
+        },
+        "variables": {
+            "rndm": [
+                [
+                    "mapping(address ",
+                    "> PROTOstars[]) public protostars"
+                ]
+            ],
+            "address": {
+                "list": [],
+                "single": []
+            },
+            "uint": {
+                "list": [],
+                "single": []
+            },
+            "string": {
+                "list": [],
+                "single": []
+            },
+            "bool": {
+                "list": [],
+                "single": []
+            },
+            "bytes": {
+                "list": [],
+                "single": []
+            }
+        }
+    }
+}

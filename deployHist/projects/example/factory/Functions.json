@@ -1,0 +1,132 @@
+{
+    "external": {
+        "view": [
+            "feeTo",
+            "feeToSetter",
+            "getPair",
+            "allPairs",
+            "allPairsLength",
+            "createPair",
+            "setFeeTo",
+            "setFeeToSetter",
+            "totalSupply",
+            "balanceOf",
+            "allowance",
+            "approve",
+            "transfer",
+            "transferFrom",
+            "DOMAIN_SEPARATOR",
+            "nonces",
+            "permit",
+            "factory",
+            "token0",
+            "token1",
+            "getReserves",
+            "price0CumulativeLast",
+            "price1CumulativeLast",
+            "kLast",
+            "mint",
+            "burn",
+            "swap",
+            "skim",
+            "sync",
+            "initialize",
+            "name",
+            "symbol",
+            "decimals",
+            "uniswapV2Call"
+        ],
+        "pure": [
+            "name",
+            "symbol",
+            "decimals",
+            "PERMIT_TYPEHASH",
+            "MINIMUM_LIQUIDITY"
+        ]
+    },
+    "names": [
+        "feeTo",
+        "feeToSetter",
+        "getPair",
+        "allPairs",
+        "allPairsLength",
+        "createPair",
+        "setFeeTo",
+        "setFeeToSetter",
+        "name",
+        "symbol",
+        "decimals",
+        "totalSupply",
+        "balanceOf",
+        "allowance",
+        "approve",
+        "transfer",
+        "transferFrom",
+        "DOMAIN_SEPARATOR",
+        "PERMIT_TYPEHASH",
+        "nonces",
+        "permit",
+        "MINIMUM_LIQUIDITY",
+        "factory",
+        "token0",
+        "token1",
+        "getReserves",
+        "price0CumulativeLast",
+        "price1CumulativeLast",
+        "kLast",
+        "mint",
+        "burn",
+        "swap",
+        "skim",
+        "sync",
+        "initialize",
+        "name",
+        "symbol",
+        "decimals",
+        "uniswapV2Call",
+        "_mint",
+        "_burn",
+        "_approve",
+        "_transfer",
+        "getReserves",
+        "_safeTransfer",
+        "_update",
+        "_mintFee",
+        "add",
+        "sub",
+        "mul",
+        "min",
+        "sqrt",
+        "encode",
+        "uqdiv"
+    ],
+    "internal": {
+        "view": [
+            "_mint",
+            "_burn"
+        ],
+        "pure": [
+            "add",
+            "sub",
+            "mul",
+            "min",
+            "sqrt",
+            "encode",
+            "uqdiv"
+        ]
+    },
+    "private": {
+        "view": [
+            "_approve",
+            "_transfer",
+            "_safeTransfer",
+            "_update",
+            "_mintFee"
+        ]
+    },
+    "public": {
+        "view": [
+            "getReserves"
+        ]
+    }
+}

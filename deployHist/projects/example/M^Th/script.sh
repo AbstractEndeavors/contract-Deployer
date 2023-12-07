@@ -1,0 +1,1 @@
+solc-select install 0.8.13; solc-select use 0.8.13;  cd /home/joben/Documents/blockchain/new_deployer; npx hardhat run /home/joben/Documents/blockchain/new_deployer/deployHist/projects/fsdfsdafdsa/M^Th_flat_flat/M^Th_flat_flat_deploy.js --network FUJI_avax;

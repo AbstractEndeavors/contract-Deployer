@@ -1,0 +1,168 @@
+{
+    "projectDir": "",
+    "originalFilePath": "/home/joben/Documents/blockchain/new_deployer/THE_FINAL_CONTS/Peripherals/M^Th.sol",
+    "originalFileDir": "/home/joben/Documents/blockchain/new_deployer/THE_FINAL_CONTS/Peripherals",
+    "currProjectDir": "/home/joben/Documents/blockchain/new_deployer/deployHist/projects/fsdfsdafdsa",
+    "currFilePath": "/home/joben/Documents/blockchain/new_deployer/deployHist/projects/fsdfsdafdsa/M^Th/M^Th.sol",
+    "file": "M^Th.sol",
+    "fileName": "M^Th",
+    "contract_address": "",
+    "api": "",
+    "pragma": "0.8.13",
+    "license": 1,
+    "args": "",
+    "version": "v0.8.13+commit.abaa5c0e",
+    "variableNames": [],
+    "allVarsTrack": {
+        "SPDX-License-Identifier": {
+            "lines": [
+                3
+            ],
+            "Licenses": [
+                "Unlicense"
+            ],
+            "License": [
+                "UNLICENSED"
+            ],
+            "lic": 1
+        },
+        "pragma solidity": {
+            "lines": [
+                4
+            ],
+            "range": [
+                "0.8.13",
+                "0.8.16"
+            ],
+            "prags": [
+                "^0.8.13"
+            ],
+            "pragma": "0.8.13"
+        },
+        "function": {
+            "lines": [
+                6,
+                13,
+                19,
+                27,
+                33,
+                39,
+                42,
+                45,
+                48,
+                51,
+                54,
+                64,
+                74,
+                87,
+                90,
+                98,
+                101,
+                108,
+                111,
+                119,
+                122,
+                135,
+                138,
+                147,
+                157,
+                160,
+                172,
+                175,
+                188,
+                191,
+                195,
+                198,
+                202,
+                205,
+                218,
+                221,
+                239,
+                242,
+                260,
+                263,
+                271,
+                274,
+                281,
+                284,
+                290,
+                293,
+                299,
+                302,
+                308,
+                311,
+                317,
+                320
+            ],
+            "names": "getHigher"
+        },
+        "library": {
+            "lines": [
+                5
+            ],
+            "names": [
+                "SafeMath"
+            ],
+            "SafeMath": {
+                "attributes": {},
+                "address": "",
+                "undeclared": "0"
+            }
+        },
+        "contract": {
+            "lines": [
+                85,
+                86
+            ],
+            "names": [
+                "nebuMath{",
+                "SafeMath"
+            ],
+            "nebuMath{": {
+                "address": "",
+                "attributes": {},
+                "undeclared": "1"
+            },
+            "SafeMath": {
+                "address": "",
+                "attributes": {},
+                "undeclared": "1"
+            }
+        },
+        "abstract contract": {
+            "lines": [],
+            "names": []
+        },
+        "interface": {
+            "lines": [],
+            "names": []
+        },
+        "constructor": {
+            "lines": [],
+            "names": []
+        },
+        "variables": {
+            "rndm": [],
+            "address": {
+                "list": [],
+                "single": []
+            },
+            "uint": {
+                "list": [],
+                "single": []
+            },
+            "string": {
+                "list": [],
+                "single": []
+            },
+            "bool": {
+                "list": [],
+                "single": []
+            },
+            "bytes": {
+                "list": [],
+                "single": []
+            }
+        }
+    }
+}

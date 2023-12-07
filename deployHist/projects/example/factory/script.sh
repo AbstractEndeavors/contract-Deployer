@@ -1,0 +1,1 @@
+solc-select install 0.5.16; solc-select use 0.5.16;  cd /home/joben/Documents/blockchain/new_deployer; npx hardhat run /home/joben/Documents/blockchain/new_deployer/deployHist/projects/asdffsdafdsafsdasfda/factory/factory_deploy.js --network FUJI_avax;

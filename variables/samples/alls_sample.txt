@@ -1,0 +1,15 @@
+from web3 import Web3
+import json
+import functions as f
+import p_k as key
+destination = ^^^destination^^^
+def get_itter(x):
+    return str('{libraries:{IterableMapping:"'+str(x)+'"}},')
+all_dirs = f.js_it(f.reader('all_dirs.json'))
+scanners,net,ch_id,main_tok,file,w3,network = f.mains()
+account_1 = w3.eth.account.privateKeyToAccount(key.p)
+varis = ^^^varis^^^
+varis = f.js_it(f.exists_make(varis,f.create_path(all_dirs['variables'],'varis.txt')))
+adds = f.js_it(f.exists_make(varis,f.create_path(all_dirs['variables'],'varis.txt')))["adds"]
+
+
