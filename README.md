@@ -7,7 +7,7 @@
 ## Table of Contents
   
 1. [Introduction :notebook:](#introduction-notebook)
-2. [Main Features :check:](#main_features-check)
+2. [Main Features :pencil:](#main_features-pencil)
 3. [Installation :computer:](#installation-computer)
 4. [Usage :pencil:](#usage-pencil)
 5. [Modules Introduction :books:](#modules-introduction-books)
@@ -24,7 +24,7 @@
   
 Smart Contract Station automates the nitty-gritty of smart contracts by preparing, placing, and managing smart contracts on the Ethereum network. By analyzing the structure and hierarchy of the contracts, it allows automatic deployment in the correct order. It also assists developers in tracking, diagnosing, and fixing issues, providing a clear advantage in auditing, security assessment processes, and verification procedures on Ethereum explorers like Etherscan. All in play to help the user better understand the architecture of contracts and their dependencies, enhancing your ability to debug, audit and verify contracts' integrity and functionality.
 
-## Main Features
+## Main Features :pencil:
 
 1. **Smart contract syntax parameters detection**: Determines various parameters such as visibility, modifiers, and global variables that underlie the contract for comprehensive analysis.
 2. **Graphical user interface**: Provides efficient window management with long-running operations and imbues an interactive user-interface layer to the console-driven system.
