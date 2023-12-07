@@ -19,9 +19,8 @@
      + [spdxManager.py](#spdxManager.py)
 6. [How It Works 👓](#how_it_works-eyeglasses)
 7. [Conclusion 🖋️](#how_it_works-pen)
-8. 
-9. [Contributing :handshake:](#contributing-handshake)
-10. [License :scroll:](#license-scroll)
+8. [Contributing :handshake:](#contributing-handshake)
+9. [License :scroll:](#license-scroll)
 
 ## Introduction :notebook:
   
