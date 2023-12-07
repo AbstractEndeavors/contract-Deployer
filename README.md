@@ -38,7 +38,7 @@ Smart Contract Station automates the nitty-gritty of smart contracts by preparin
 Install Python 3.x and pip. The Smart Contract Station can be installed using pip.
 
 ```bash
-pip install smart-contract-station
+download the repository and run deployer.py
 ```
 
 ## Usage :pencil:
