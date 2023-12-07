@@ -17,8 +17,11 @@
      + [get_initial_variables.py](#get_initial_variables.py)
      + [pragmaVariableManager.py](#pragmaVariableManager.py)
      + [spdxManager.py](#spdxManager.py)
-6. [Contributing :handshake:](#contributing-handshake)
-7. [License :scroll:](#license-scroll)
+6. [How It Works 👓](#how_it_works-eyeglasses)
+7. [Conclusion 🖋️](#how_it_works-pen)
+8. 
+9. [Contributing :handshake:](#contributing-handshake)
+10. [License :scroll:](#license-scroll)
 
 ## Introduction :notebook:
   
@@ -85,6 +88,20 @@ The `pragma_variable_manager.py` script is a pivotal part of Smart Contract Stat
 ### spdxManager.py
 
 The `spdx_manager.py` script of Smart Contract Station deals with the management of SPDX License Identifiers in smart contracts to maintain consistency.
+
+## How It Works 👓
+
+- Checks the existence of files and directories and prevents potential errors.
+- Provides utility functions to create dialog boxes, prompts, and retrieves user inputs.
+- Retrieves essential variables and information by scanning program details.
+- Manages contract variables and resources, preparing the contract for deployment.
+- It handles Node.js installation on Unix systems and simplifies the contract file structure.
+- Ensures versioning and order of deployment for Smart Contracts.
+
+## Conclusion 🖋️
+
+The Smart Contract Station is a vital Python tool for the development and autonomous placement of smart contracts. This module is carved for meticulous handling of necessary procedures for contract creation and deployment. Each script ensures a well-rounded smooth process and a sturdy base for secure contract placement.
+
 
 ## Contributing :handshake:
 
