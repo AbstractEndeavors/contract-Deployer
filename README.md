@@ -64,8 +64,12 @@ The `contractVariableManager.py` script is critical in preparing and deploying s
 
 ### contract_flattener.py
 
-The `contract_flattener.py` component consolidates imports, clones, and installs the Solidity flattener from GitHub using npm and refines a given file structure into a simplified version.
-'node_js_installer.py' is responsible for checking Node.js installation on Unix systems (including Linux and MacOS), and it performs an automatic installation if no previous installation is found. The script attempts to run 'node' and 'npm' commands and acts upon any FileNotFoundError to initiate installation. If a Unix-based system is not detected, the script advises the user to manually install Node.js. The 'Flattener.py' script within 'contract_flattener.py' centrally imports, clones, and installs the Solidity flattener from GitHub using npm and modifies a given file structure into a simplified version. The script performs these operations based on a JSON configuration file providing vital details such as original file path and output directory, leading to the creation of a new JSON configuration for every flattening process. The script executes the flattening command, waits for the flattening process to complete before incorporating the flattened file into the original. In the post-flattening cleanup process, the script removes the temporary flattened file.
+1) The `contract_flattener.py` component consolidates imports, clones, and installs the Solidity flattener from GitHub using npm and refines a given file structure into a simplified version.
+
+2) The 'Flattener.py' script within 'contract_flattener.py' centrally imports, clones, and installs the Solidity flattener from GitHub using npm and modifies a given file structure into a simplified version. The script performs these operations based on a JSON configuration file providing vital details such as original file path and output directory, leading to the creation of a new JSON configuration for every flattening process. The script executes the flattening command, waits for the flattening process to complete before incorporating the flattened file into the original. In the post-flattening cleanup process, the script removes the temporary flattened file.
+
+3) 'node_js_installer.py' is responsible for checking Node.js installation on Unix systems (including Linux and MacOS), and it performs an automatic installation if no previous installation is found. The script attempts to run 'node' and 'npm' commands and acts upon any FileNotFoundError to initiate installation. If a Unix-based system is not detected, the script advises the user to manually install Node.js. 
+
 ### get_initial_variables.py
 
 The `get_initial_variables.py` script caters to the parsing of smart contract components, automating the process of securing contract data based on Solidity version, verifying required resources for contracts, and organizing everything for automated deployment.
