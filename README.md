@@ -8,15 +8,15 @@
   
 1. [Introduction :notebook:](#introduction-notebook)
 2. [Main Features :pencil:](#main_features-pencil)
-3. [Installation :computer:](#installation-computer)
-4. [Usage :pencil:](#usage-pencil)
-5. [Modules Introduction :books:](#modules-introduction-books)
-     + [deployer.py](#deployerpy)
-     + [contractVariableManager.py](#contractVariableManager.py)
-     + [contract_flattener.py](#contract_flattener.py)
-     + [get_initial_variables.py](#get_initial_variables.py)
-     + [pragmaVariableManager.py](#pragmaVariableManager.py)
-     + [spdxManager.py](#spdxManager.py)
+3. [Usage :pencil:](#usage-pencil)
+4. [Modules Introduction :books:](#modules-introduction-books)
+     + [Deployer](#deployerpy)
+     + [Contract Variables Manager](#contractVariableManager.py)
+     + [Flattener](#contract_flattener.py)
+     + [Initial Variables Manager](#get_initial_variables.py)
+     + [Pragma Variables Manager](#pragmaVariableManager.py)
+     + [SPDX Manager](#spdxManager.py)
+5. [Installation :computer:](#installation-computer)
 6. [How It Works 👓](#how_it_works-eyeglasses)
 7. [Conclusion 🖋️](#how_it_works-pen)
 8. [Contributing :handshake:](#contributing-handshake)
@@ -59,7 +59,7 @@ This script handles the versioning of smart contracts for automated deployment. 
 It deals with the management of SPDX License Identifiers in smart contracts. This class fetches SPDX identifiers from contracts and compares these identifiers with a predefined list.
 [Read More](spdx_manager.md)
 
-## Installation
+## Installation :computer:
 Follow the instructions listed below to get this project up and running on your local machine for development purposes.
 ```bash
 # Clone the repository
