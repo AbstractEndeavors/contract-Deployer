@@ -32,15 +32,15 @@ def install_npm():
     npm install""")
 
 
-def flatten_it(originalFilePath, currFileDir):
+def flatten_it(originalFilePath):
     """
     Flattens a given original file structure into a simplified one. It takes the original file path and the current directory file as arguments. The function creates a new JSON configuration for the flattening process, executes the npm start command, waits for the flattened file to be created, then reads the contents of the escalated file, performs cleanup, and overwrites the original file with the flattened contents.
     """
     # Extract directory, file name, and extension from the original file path
-
+    
     fileName = os.path.basename(originalFilePath)
     baseName, ext = os.path.splitext(fileName)
-
+    currFileDir=os.path.dirname(originalFilePath)
     new_contract_path = os.path.join(currFileDir,fileName)
     write_to_file(file_path=new_contract_path, contents=read_from_file(originalFilePath))
     # Prepare the name and path for the flattened file
@@ -51,8 +51,8 @@ def flatten_it(originalFilePath, currFileDir):
     # Create JSON configuration for the flattening process
     json_file = {"originalFilePath": originalFilePath,
                  "outputDir": currFileDir}
-    config_path = os.path.join(os.getcwd(), 'scripts', 'solidity-flattener')
-    config_file_path = os.path.join(config_path, 'config.json')
+    config_path = os.path.join(os.getcwd(),'scripts','solidity-flattener')
+    config_file_path = os.path.join(config_path,'config.json')
     safe_dump_to_file(data=json_file, file_path=config_file_path)
 
     # Execute the flattening command

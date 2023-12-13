@@ -1,0 +1,108 @@
+{
+    "8": {
+        "^0.8.13": {
+            "names": [
+                "library",
+                "abstract contract",
+                "contract"
+            ],
+            "library": {
+                "SafeMath": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/library/SafeMath.sol",
+                "boostLib": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/library/boostLib.sol",
+                "NeFiLib": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/library/NeFiLib.sol",
+                "nebuLib": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/library/nebuLib.sol",
+                "PuTLib": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/library/PuTLib.sol"
+            },
+            "abstract contract": {
+                "Context": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/abstract contract/Context.sol",
+                "Ownable": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/abstract contract/Ownable.sol",
+                "feeManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/abstract contract/feeManager.sol",
+                "prevNebulaProtoStarManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/abstract contract/prevNebulaProtoStarManager.sol",
+                "overseer": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/abstract contract/overseer.sol"
+            },
+            "contract": {
+                "NeFiBoostManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/contract/NeFiBoostManager.sol",
+                "SafeMath": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/contract/SafeMath.sol",
+                "math{": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.13/contract/math{.sol"
+            }
+        },
+        "^0.8.0": {
+            "names": [
+                "interface",
+                "library",
+                "contract",
+                "abstract contract"
+            ],
+            "interface": {
+                "IERC20": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/interface/IERC20.sol",
+                "IERC20Metadata": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/interface/IERC20Metadata.sol"
+            },
+            "library": {
+                "Address": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/library/Address.sol",
+                "SafeERC20": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/library/SafeERC20.sol",
+                "SafeMath": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/library/SafeMath.sol",
+                "IterableMapping": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/library/IterableMapping.sol"
+            },
+            "contract": {
+                "ERC20": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/contract/ERC20.sol",
+                "NeFiProtoManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/contract/NeFiProtoManager.sol",
+                "SafeMath": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/contract/SafeMath.sol",
+                "PuTProtoStarManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/contract/PuTProtoStarManager.sol",
+                "NeFiFeeManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/contract/NeFiFeeManager.sol",
+                "NeFiDropManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/contract/NeFiDropManager.sol",
+                "updateManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/contract/updateManager.sol"
+            },
+            "abstract contract": {
+                "Ownable": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/abstract contract/Ownable.sol",
+                "boostManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/abstract contract/boostManager.sol",
+                "feeManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/abstract contract/feeManager.sol",
+                "prevNebulaProtoStarManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/abstract contract/prevNebulaProtoStarManager.sol",
+                "overseer": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/abstract contract/overseer.sol",
+                "nebulaMath": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/abstract contract/nebulaMath.sol",
+                "ProtoManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/abstract contract/ProtoManager.sol",
+                "dropManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/abstract contract/dropManager.sol",
+                "Context": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/abstract contract/Context.sol",
+                "Pausable": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/abstract contract/Pausable.sol",
+                "protoManager": "/home/joben/Documents/deployer/variables/pragmas/8/^0.8.0/abstract contract/protoManager.sol"
+            }
+        },
+        "0.8.4": {
+            "names": [
+                "contract"
+            ],
+            "contract": {
+                "NodeManager": "/home/joben/Documents/deployer/variables/pragmas/8/0.8.4/contract/NodeManager.sol",
+                "SafeMath": "/home/joben/Documents/deployer/variables/pragmas/8/0.8.4/contract/SafeMath.sol",
+                "IterableMapping": "/home/joben/Documents/deployer/variables/pragmas/8/0.8.4/contract/IterableMapping.sol"
+            }
+        }
+    },
+    "5": {
+        "=0.5.16": {
+            "names": [
+                "interface",
+                "contract",
+                "library"
+            ],
+            "interface": {
+                "IUniswapV2Factory": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/interface/IUniswapV2Factory.sol",
+                "IUniswapV2Pair": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/interface/IUniswapV2Pair.sol",
+                "IUniswapV2ERC20": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/interface/IUniswapV2ERC20.sol",
+                "IERC20": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/interface/IERC20.sol",
+                "IUniswapV2Callee": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/interface/IUniswapV2Callee.sol"
+            },
+            "contract": {
+                "UniswapV2ERC20": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/contract/UniswapV2ERC20.sol",
+                "SafeMath": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/contract/SafeMath.sol",
+                "UniswapV2Pair": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/contract/UniswapV2Pair.sol",
+                "UQ112x112": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/contract/UQ112x112.sol",
+                "factory": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/contract/factory.sol"
+            },
+            "library": {
+                "SafeMath": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/library/SafeMath.sol",
+                "Math": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/library/Math.sol",
+                "UQ112x112": "/home/joben/Documents/deployer/variables/pragmas/5/=0.5.16/library/UQ112x112.sol"
+            }
+        }
+    }
+}
